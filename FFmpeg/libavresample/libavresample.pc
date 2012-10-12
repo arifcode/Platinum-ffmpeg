@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavresample
+Description: Libav audio resampling library
+Version: 0.0.2
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavresample -ldl -lva -lXfixes -lXext -lX11 -ljack -lasound -lSDL -lx264 -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lopencore-amrwb -lopencore-amrnb -lmp3lame -lfaac -lm -pthread -lbz2 -lz -lrt
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,5 @@
+import os
+#SConscript(os.path.realpath('./Build/Boot.scons'))
+scripts = ['../FFmpeg/Build.scons', './Build/Boot.scons']
+#SConscript(os.path.realpath('../FFmpeg/Build.scons'))
+SConscript('../FFmpeg/Build.scons')

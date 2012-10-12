@@ -1,0 +1,1 @@
+config:x86:x86_32:generic:linux:gcc 4.6.1 (Ubuntu/Linaro 4.6.1-9ubuntu3):--enable-debug --extra-ldflags=-pg --extra-cflags=-pg --disable-stripping --enable-gpl --enable-libfaac --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libtheora --enable-libvorbis --enable-libx264 --enable-nonfree --enable-version3 --enable-x11grab --disable-crystalhd
